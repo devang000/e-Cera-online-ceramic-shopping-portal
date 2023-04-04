@@ -1,0 +1,89 @@
+
+
+header{
+    height: auto;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+
+#title_th{
+    background: whitesmoke; 
+    font-size: 18pt;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    border-bottom: 2px solid #ffffff;   
+    font-family: Tahoma;    
+}
+
+#table, #th, #td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    font-family: verdana;
+    padding: 12px 15px;
+}
+
+
+#table{
+    width: 100%;
+    overflow: scroll;
+    border-radius: 5px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    border-bottom: 1px solid #dddddd;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#th{
+    /* background-color: lightgrey; */
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.fa-pen-to-square{
+    color: yellowgreen;
+}
+
+.fa-trash-can{
+    color: rgb(255, 107, 107);
+}
+
+#btn_update:hover{
+    background-color: #4169e1;
+    color:white;
+    transition-duration: .3s;
+}
+
+
+#btn_delete:hover{
+    background-color: red;
+    color:white;
+    transition-duration: .3s;
+}
+
+
+#btn_update{
+    
+    height:35px;
+    width: 70px;
+    
+}
+#btn_delete{
+    height:35px;
+    width: 70px;
+}
